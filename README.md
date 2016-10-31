@@ -1,5 +1,4 @@
 # WebDev
-<p align="center">
 
 | Names        | Student Number |
 | ------------- |:-------------:| 
@@ -8,5 +7,4 @@
 | Rafal Konarzewski | x15019535 | 
 
 
- 
-</p>
+
