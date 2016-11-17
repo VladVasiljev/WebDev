@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <bikes>
+        <Type>City Bike</Type>
+		<colour></colour>
+		<hireTime></hireTime>
+		<price></price>
+		<stock>
+			<quantity></quantity>
+		</stock>
+		
+		
+    </bikes>
+    <bikes>
+        <Type>Mountain Bike</Type>
+		<colour></colour>
+		<hireTime></hireTime>
+		<price></price>
+		<quantity></quantity>
+		<stock>
+			<quantity></quantity>
+		</stock>
+		
+    </bikes>
+    <bikes>
+        <Type>Touring Bike</Type>
+		<colour></colour>
+		<hireTime></hireTime>
+		<price></price>
+		<quantity></quantity>
+		<stock>
+			<quantity></quantity>
+		</stock>
+    </bikes>
+	<bikes>
+        <Type>BMX</Type>
+		<colour></colour>
+		<hireTime></hireTime>
+		<price></price>
+		<quantity></quantity>
+		<stock>
+			<quantity></quantity>
+		</stock>
+		
+    </bikes>
+</catalog>
