@@ -1,0 +1,44 @@
+<?xml version= "1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:annotation> 
+		<xsd:documentation> 
+		This document describes the schema
+		</xsd:documentation>
+	</xsd:annotation>
+	
+	<xsd:element name = "database">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "customer" minOccurs = "1" maxOccurs = "unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	
+	<xsd:element name = "customer">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref = "contactName" minOccurs="1" />
+			
+			
+			
+			
+			</xsd:sequence>
+		
+		
+		
+		</xsd:complexType>
+	
+	
+	
+	
+	
+	
+	
+	</xsd:element>
+	
+	
+	
+	
+	
+</xsd:schema>
