@@ -46,15 +46,4 @@
 		
     </bikes>
 </catalog>
-
-<customers>
-    <name>
-        	<first></first>
-		<last></last>
-	</name
-<contact>
-		<email></email>
-		<phone></phone>
-</contact>
-</customers>
 		
