@@ -13,17 +13,19 @@
     </bikes>
     <bikes>
         <Type>Mountain Bike</Type>
+	<image></Image>
 		<colour></colour>
 		<hireTime></hireTime>
 		<price></price>
 		<quantity></quantity>
-		<stock>
-			<quantity></quantity>
-		</stock>
+	<stock>
+		<quantity></quantity>
+	</stock>
 		
     </bikes>
     <bikes>
         <Type>Touring Bike</Type>
+		<image></Image>
 		<colour></colour>
 		<hireTime></hireTime>
 		<price></price>
@@ -44,3 +46,4 @@
 		
     </bikes>
 </catalog>
+		
