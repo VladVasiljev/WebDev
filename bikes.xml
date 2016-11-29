@@ -1,45 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog>
-    <bikes>
-        <Type>City Bike</Type>
+	<bikes>
+		<Type>City Bike</Type>
 		<colour>Blue</colour>
 		<hireTime>2 Days</hireTime>
 		<price>15</price>
 		<stock>
 			<quantity>3</quantity>
-		</stock>	
-    </bikes>
-
-    <bikes>
-        <Type>Mountain Bike</Type>
-	<image></Image>
+		</stock>
+	</bikes>
+	<bikes>
+		<Type>Mountain Bike</Type>
+		<image>
+		</Image>
 		<colour>Black</colour>
 		<hireTime>1 Day</hireTime>
-		<price>25</price>		
+		<price>25</price>
 		<stock>
 			<quantity>10</quantity>
-		</stock>	
-    </bikes>
-
-    <bikes>
-        <Type>Touring Bike</Type>
-		<image></Image>
+		</stock>
+	</bikes>
+	<bikes>
+		<Type>Touring Bike</Type>
+		<image>
+		</Image>
 		<colour>White</colour>
 		<hireTime>5</hireTime>
 		<price>150</price>
 		<stock>
 			<quantity>15</quantity>
 		</stock>
-    </bikes>
-
+	</bikes>
 	<bikes>
-        <Type>BMX</Type>
+		<Type>BMX</Type>
 		<colour>Mixed</colour>
 		<hireTime>3 Days</hireTime>
 		<price>60</price>
 		<stock>
 			<quantity>2</quantity>
-		</stock>		
-    </bikes>
-</catalog>
-		
+		</stock>
+	</bikes>
+</catalog>		
