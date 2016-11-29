@@ -2,11 +2,11 @@
 <catalog>
     <bikes>
         <Type>City Bike</Type>
-		<colour></colour>
-		<hireTime></hireTime>
-		<price></price>
+		<colour>Blue</colour>
+		<hireTime>2 Days</hireTime>
+		<price>15</price>
 		<stock>
-			<quantity></quantity>
+			<quantity>3</quantity>
 		</stock>
 		
 		
@@ -14,12 +14,12 @@
     <bikes>
         <Type>Mountain Bike</Type>
 	<image></Image>
-		<colour></colour>
-		<hireTime></hireTime>
-		<price></price>
+		<colour>Black</colour>
+		<hireTime>1 Day</hireTime>
+		<price>25</price>
 		<quantity></quantity>
 	<stock>
-		<quantity></quantity>
+		<quantity>10</quantity>
 	</stock>
 		
     </bikes>
