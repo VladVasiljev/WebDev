@@ -2,7 +2,7 @@
 <xsd:schema 
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<xsd:annotation>
-		<xsd:documentation> 		This document describes the schema		</xsd:documentation>
+		<xsd:documentation>This document describes the schema</xsd:documentation>
 	</xsd:annotation>
 	<xsd:element name = "database">
 		<xsd:complexType>
@@ -17,7 +17,7 @@
 				<xsd:element ref = "contactName" minOccurs="1" />
 				<xsd:element ref ="contactInformation" minOccurs="1"/>
 				<xsd:element ref ="fullAddress" minOccurs="1"/>
-				<xsd:element name ="accountStatus" minOccurs="1"/>
+				<xsd:element name ="accountStatus" type="xsd:string" minOccurs="1"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
@@ -33,7 +33,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name ="emailAddress" type="xsd:string"/>
-				<xsd:element name ="phoneNumber" type="xs:integer"/>
+				<xsd:element name ="phoneNumber" type="xsd:string"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
