@@ -1,0 +1,32 @@
+<?xml version= "1.0"?>
+<xsd:schema 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:annotation>
+        <xsd:documentation>This document describes the schema</xsd:documentation>
+    </xsd:annotation>
+    <xsd:element name = "catalog">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref = "bikes" minOccurs = "1" maxOccurs = "unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name = "bikes">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Type" type="xsd:string" minOccurs="1" />
+                <xsd:element name="colour" type="xsd:string" minOccurs="1" />
+                <xsd:element name="hireTime" type="xsd:string" minOccurs="1" />
+                <xsd:element name="price" type="xsd:string" minOccurs="1" />
+                <xsd:element ref="stock" minOccurs="1" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name = "stock">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="quantity" type="xsd:string"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
