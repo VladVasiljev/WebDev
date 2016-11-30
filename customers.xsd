@@ -19,23 +19,26 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element ref = "contactName" minOccurs="1" />
-			
-			
-			
-			
+				<xsd:element name ="firstName" type="xsd:string"/>
+				<xsd:element name ="lastName" type="xsd:string"/>
+				<xsd:element ref ="contactInformation" type="xsd:string"/>
+				<xsd:element name ="emailAddress" type="xsd:string"/>
+				<xsd:element name ="phoneNumber" type="xs:integer"/>
+				<xsd:element ref ="fullAddress" type="xs:string"/>
+				<xsd:element name ="Address" type="xsd:string"/>
+				<xsd:element name ="city" type="xsd:string"/>
+				<xsd:element name ="postalCode" type="xsd:string"/>
+				<xsd:element name ="country" type="xsd:string"/>
+				<xsd:element name ="accountStatus" type="xsd:string"/>
 			</xsd:sequence>
-		
-		
-		
 		</xsd:complexType>
-	
-	
-	
-	
-	
-	
-	
 	</xsd:element>
+
+
+	<xsd:element name = "">
+		<xsd:complexType>
+			<xsd:sequence>
+
 	
 	
 	
