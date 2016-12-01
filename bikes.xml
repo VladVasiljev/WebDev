@@ -10,7 +10,7 @@
 		</stock>
 	</bikes>
 	<bikes>
-		<Type>Mountain Bike</Type>	
+		<Type>Mountain Bike</Type>
 		<colour>Black</colour>
 		<hireTime>1 Day</hireTime>
 		<price>25</price>
