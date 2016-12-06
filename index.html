@@ -19,12 +19,74 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+<script>
+    (function($) {
+        $.fn.extend({
+            rotaterator: function(options) {
+
+                var defaults = {
+                    fadeSpeed: 500,
+                    pauseSpeed: 100,
+                    child: null
+                };
+
+                var options = $.extend(defaults, options);
+
+                return this.each(function() {
+                    var o = options;
+                    var obj = $(this);
+                    var items = $(obj.children(), obj);
+                    items.each(function() {
+                        $(this).hide();
+                    })
+                    if (!o.child) {
+                        var next = $(obj).children(':first');
+                    } else {
+                        var next = o.child;
+                    }
+                    $(next).fadeIn(o.fadeSpeed, function() {
+                        $(next).delay(o.pauseSpeed).fadeOut(o.fadeSpeed, function() {
+                            var next = $(this).next();
+                            if (next.length == 0) {
+                                next = $(obj).children(':first');
+                            }
+                            $(obj).rotaterator({
+                                child: next,
+                                fadeSpeed: o.fadeSpeed,
+                                pauseSpeed: o.pauseSpeed
+                            });
+                        })
+                    });
+                });
+            }
+        });
+    })(jQuery);
+
+    $(document).ready(function() {
+        $('#rotate').rotaterator({
+            fadeSpeed: 2000,
+            pauseSpeed: 2000
+        });
+    });
+</script>
+
+
+
 <body>
     <div id="mainPage">
         <header>
-            <h2>Bikes for Hire</h2>
+            <h1>
+                <div id="rotate">
+                    <div>Think globally, cycle locally.</div>
+                    <div>Style over speed.</div>
+                    <div>My other car is a bike.</div>
+                    <div>Half the wheels, twice the fun!</div>
+                    <div>Make love, not exhaust.</div>
+                    <div>Get a bike, get a life.</div>
+                    <div>Grasp life by the handlebars.</div>
+                </div>
+            </h1>
         </header>
-
         <div id="slider">
             <figure>
                 <img src="images/France.jpg">
