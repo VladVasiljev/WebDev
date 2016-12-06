@@ -56,6 +56,10 @@ h2 {
     max-width: 80%;
     min-width: 40%;
     margin-left: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 header {
@@ -73,5 +77,4 @@ footer {
     color: white;
     background-color: #4c1130;
     height: 50px;
-    margin-bottom: 20px;
 }
