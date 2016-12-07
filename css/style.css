@@ -56,10 +56,12 @@ h2 {
     max-width: 80%;
     min-width: 40%;
     margin-left: 10%;
+    min-height: auto;
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 5px #000000;
+    background: #fff;
 }
 
 header {
