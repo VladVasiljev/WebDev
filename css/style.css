@@ -78,3 +78,88 @@ footer {
     background-color: #4c1130;
     height: 50px;
 }
+
+/* Navigation Bar CSS */
+nav {
+    margin: 1px 0;
+    background-color: #4c1130;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #4c1130;
+}
+
+nav a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 280px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+    content: '';
+}
+
+li > a:only-child:after {
+    content: '';
+}
+
+ .info
+        {
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+            position: absolute;
+            display: block;
+            color: White;
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+/*Control image/div size*/
+.mainImageControl{
+    display: flex;
+    }
+.mainImageControl div{
+    flex: 1;
+    margin: 5px;
+}
+
+.mainImageControl img{
+    width: 80%;
+}
