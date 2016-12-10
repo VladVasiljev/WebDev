@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<customer>
+		<contactName>
+			<firstName>Dana	</firstName>
+			<lastName>Drake</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>Wourell1971@teleworm.us</emailAddress>
+			<phoneNumber>(01302) 308475</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>16 Coldstream Ave</Address>
+			<city>Warmsworth</city>
+			<postalCode>DN4 9PL</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Pearl</firstName>
+			<lastName>Bowers</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>zoviragil-0153@yopmail.com</emailAddress>
+			<phoneNumber>(01851) 444237</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>19 Claypark Rd</Address>
+			<city>Isle of Lewis</city>
+			<postalCode>HS2</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Gilberto</firstName>
+			<lastName>Ortiz</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>offymmuzozo-5068@yopmail.com</emailAddress>
+			<phoneNumber>(020) 4812 7778</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>Lynx Way</Address>
+			<city>London</city>
+			<postalCode>E16</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Shannon</firstName>
+			<lastName>Mcdonald</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>offymmuzozo-5068@yopmail.com</emailAddress>
+			<phoneNumber>(01384) 741328</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>19 Iverley Walk</Address>
+			<city>Stourbridge</city>
+			<postalCode>DY9 0YJ</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Shannon</firstName>
+			<lastName>Mcdonald</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>offymmuzozo-5068@yopmail.com</emailAddress>
+			<phoneNumber>(01384) 741328</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>19 Iverley Walk</Address>
+			<city>Stourbridge</city>
+			<postalCode>DY9 0YJ</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Lakisha</firstName>
+			<lastName>Rickard</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>ennaremma-7901@yopmail.com</emailAddress>
+			<phoneNumber>(0116) 053 2237</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>2 Oaks Rd, Great Glen</Address>
+			<city>Leicester</city>
+			<postalCode>LE8 9EF</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Rolland</firstName>
+			<lastName>Simonson</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>orrehisev-9441@yopmail.com</emailAddress>
+			<phoneNumber>(0113) 764 8162</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>2 Consort Walk</Address>
+			<city>Leeds</city>
+			<postalCode>LS3 1NU</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Maia</firstName>
+			<lastName>Longo</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>uwummefiq-6688@yopmail.com</emailAddress>
+			<phoneNumber>(01509) 820768</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>5 Chestnuts Cl, Sutton Bonington</Address>
+			<city>Loughborough</city>
+			<postalCode>LE12 5RJ</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Dalila</firstName>
+			<lastName>Harkins</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>nudibasawa-2908@yopmail.com</emailAddress>
+			<phoneNumber>(01932) 347052</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>4 Tanglewood Cl</Address>
+			<city>Woking</city>
+			<postalCode>GU22 8LG</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+	<customer>
+		<contactName>
+			<firstName>Carroll</firstName>
+			<lastName>Littlefield</lastName>
+		</contactName>
+		<contactInformation>
+			<emailAddress>henenoqi-8366@yopmail.com</emailAddress>
+			<phoneNumber>(01252) 324785</phoneNumber>
+		</contactInformation>
+		<fullAddress>
+			<Address>24 Barton Cl</Address>
+			<city>Berrow</city>
+			<postalCode>TA8 2NN</postalCode>
+			<country>UK</country>
+		</fullAddress>
+		<accountStatus>TRUE</accountStatus>
+	</customer>
+</database>

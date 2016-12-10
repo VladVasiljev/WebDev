@@ -1,0 +1,167 @@
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#mainPage {
+    max-width: 80%;
+    min-width: 40%;
+    margin-left: 10%;
+    min-height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px #000000;
+    background: #fff;
+}
+
+header {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #4c1130;
+    height: 50px;
+    margin-top: -20px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #4c1130;
+    height: 50px;
+}
+
+/* Navigation Bar CSS */
+nav {
+    margin: 1px 0;
+    background-color: #4c1130;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: #4c1130;
+}
+
+nav a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #fff;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 280px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Change this in order to change the Dropdown symbol */
+li > a:after {
+    content: '';
+}
+
+li > a:only-child:after {
+    content: '';
+}
+
+ .info
+        {
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+            position: absolute;
+            display: block;
+            color: White;
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+/*Control image/div size*/
+.mainImageControl{
+    display: flex;
+    }
+.mainImageControl div{
+    flex: 1;
+    margin: 5px;
+}
+
+.mainImageControl img{
+    width: 80%;
+}
