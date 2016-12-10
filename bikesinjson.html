@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Bikes in the Stock</h2>
+
+<p id="demo"></p>
+
+<script>
+var bike1 = '{"type":"City Bike","color":"Black","hireTime":"1 day","price":"10", "quantity":"5"}';
+var bike2 = '{"type":"Mountain Bike","color":"Red","hireTime":"2 days","price":"10", "quantity":"5"}';
+var bike3 = '{"type":"Touring Bike","color":"Green","hireTime":"2 days","price":"10", "quantity":"5"}';
+var bike4 = '{"type":"BMX","color":"Mixed","hireTime":"1 day","price":"10", "quantity":"5"}';
+
+
+var obj = JSON.parse(bike3);
+
+document.getElementById("demo").innerHTML =
+obj.type + "<br>" +
+obj.color + "<br>" +
+obj.hireTime + "<br>" +
+obj.price + "<br>" +
+obj.quantity
+</script>
+
+</body>
+</html>
