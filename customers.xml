@@ -53,15 +53,15 @@
 	</customer>
 	<customer>
 		<contactName>
-			<firstName>Shannon</firstName>
+			<firstName>Bob</firstName>
 			<lastName>Mcdonald</lastName>
 		</contactName>
 		<contactInformation>
-			<emailAddress>offymmuzozo-5068@yopmail.com</emailAddress>
+			<emailAddress>oslumetenop@throya.com</emailAddress>
 			<phoneNumber>(01384) 741328</phoneNumber>
 		</contactInformation>
 		<fullAddress>
-			<Address>19 Iverley Walk</Address>
+			<Address>19 Iverley Road</Address>
 			<city>Stourbridge</city>
 			<postalCode>DY9 0YJ</postalCode>
 			<country>UK</country>
@@ -74,7 +74,7 @@
 			<lastName>Mcdonald</lastName>
 		</contactName>
 		<contactInformation>
-			<emailAddress>offymmuzozo-5068@yopmail.com</emailAddress>
+			<emailAddress>clistulori@throya.com</emailAddress>
 			<phoneNumber>(01384) 741328</phoneNumber>
 		</contactInformation>
 		<fullAddress>
