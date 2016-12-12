@@ -8,7 +8,7 @@
 if(isset($_SERVER['HTTP_REFERER'])){
     header("Location: " . $_SERVER['HTTP_REFERER']);    
 } else {
-    echo "An Error";
+    echo "An Errorr";
 }
 
 //get details from form
