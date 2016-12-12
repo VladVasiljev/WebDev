@@ -4,10 +4,10 @@
 <head>
     <!--Jquery link-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<!-- 
+    <!-- 
 	<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
 	<script type='text/javascript' src='js/dynamicpage.js'></script>makes page dynamic -->
-	
+
     <!-- Latest compiled and minified CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <!-- Optional theme -->
@@ -22,9 +22,9 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="css/style.css" rel="stylesheet">
 </head>
-	
 
-<body background="images/background.jpg" >
+
+<body background="images/background.jpg">
     <div id="mainPage">
         <header>
             <h1>
@@ -41,52 +41,49 @@
         </header>
         <div id="slider">
             <figure>
-                <img src="images/SBridge.jpg"> <img src="images/SWall.jpg"> <img src="images/SSigns.jpg"> <img src="images/STypes.jpg"> <img src="images/SLine.jpg">
+                <img src="images/SBridge.jpg"> <img src="images/SWall.jpg"> <img src="images/SSigns.jpg"> <img src="images/STypes.jpg">                <img src="images/SLine.jpg">
             </figure>
         </div>
         <!-- Start of drop down Navigation bar, can change the headings of Navigation bars   -->
         <nav>
             <ul class="group">
                 <li><a href="index.html">Home</a></li>
-				<li><a href="bmx.html">BMX</a></li>
-                <li><a href="mountainBike.html">Mountain Bike</a></li>
-               <li><a href="cityBike.html">City Bike</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="TypesofBikes.html">Types of Bikes</a></li>
+                <li><a href="cityBike.html">City Bike</a></li>
+                <li><a href="customerInformation.html">Customer Information</a></li>
             </ul>
         </nav>
         <!-- End of Nav  -->
-		
-		<section id="main-content">
-		<div id="guts">
-		      <div class="Logo">
-      <img alt="logo image" src="images/logo.png" width="223" height="167">
-      </div>
-		
-		  <h2>Welcome to the Go Bikes website</h2>
-		
-		  <p>We offer a huge stock of BMX, Mountain bikes and city bikes that you may rent at reasonable rates.</p> 
-		  <p>You will find details on the other pages and easy access to rent by clicking on the quick links below.</p>
-		  
-		
-		</div>
-		</section>
-			
-			<form action="index.php" method="post">
-    Type: <input type="text" name="Type"><br>
-    Colour: <input type="text" name="colour"><br>
-    Hire Time: <input type="text" name="hireTime"><br>
-    Price: <input type="text" name="price"><br>
 
-    <input type="submit">
-  </form>
-		
-			
-			
-			<div id='showBikes'></div><br>
-<input type="button" onclick="previous()" value="<<">
-<input type="button" onclick="next()" value=">>">
+        <section id="main-content">
+            <div id="guts">
+                <div class="Logo">
+                    <img alt="logo image" src="images/logo.png" width="223" height="167">
+                </div>
 
-<script>
+                <h2>Welcome to the Go Bikes website</h2>
+
+                <p>We offer a huge stock of BMX, Mountain bikes and city bikes that you may rent at reasonable rates.</p>
+                <p>You will find details on the other pages and easy access to rent by clicking on the quick links below.</p>
+
+
+            </div>
+        </section>
+
+        <form action="index.php" method="post">
+            Type: <input type="text" name="Type"><br> Colour: <input type="text" name="colour"><br> Hire Time: <input type="text"
+                name="hireTime"><br> Price: <input type="text" name="price"><br>
+
+            <input type="submit">
+        </form>
+
+
+
+        <div id='showBikes'></div><br>
+        <input type="button" onclick="previous()" value="<<">
+        <input type="button" onclick="next()" value=">>">
+
+        <script>
 var i = 0;
 displayBikes(i);
 
@@ -131,12 +128,12 @@ if (i > 0) {
   }
 }
 </script>
-			
-			
+
+        <!--	
         <div class="mainImageControl">
 
             <div>
-                <img src="images/bike1.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
+                <img src="images/bike1,jpg" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
             </div>
             <div>
                 <img src="images/bike2.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
@@ -149,7 +146,7 @@ if (i > 0) {
             </div>
 
         </div>
-
+-->
 
 
         <footer>

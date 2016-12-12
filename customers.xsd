@@ -1,50 +1,51 @@
-<?xml version= "1.0"?>
-<xsd:schema 
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<xsd:annotation>
-		<xsd:documentation>This document describes the schema</xsd:documentation>
-	</xsd:annotation>
-	<xsd:element name = "database">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref = "customer" minOccurs = "1" maxOccurs = "unbounded"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-	<xsd:element name = "customer">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element ref = "contactName" minOccurs="1" />
-				<xsd:element ref ="contactInformation" minOccurs="1"/>
-				<xsd:element ref ="fullAddress" minOccurs="1"/>
-				<xsd:element name ="accountStatus" type="xsd:string" minOccurs="1"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-	<xsd:element name = "contactName">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name ="firstName" type="xsd:string"/>
-				<xsd:element name ="lastName" type="xsd:string"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-	<xsd:element name = "contactInformation">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name ="emailAddress" type="xsd:string"/>
-				<xsd:element name ="phoneNumber" type="xsd:string"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-	<xsd:element name = "fullAddress">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name ="Address" type="xsd:string"/>
-				<xsd:element name ="city" type="xsd:string"/>
-				<xsd:element name ="postalCode" type="xsd:string"/>
-				<xsd:element name ="country" type="xsd:string"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-</xsd:schema>
+<?xml version="1.0"?>
+<schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<annotation>
+		<documentation>
+			This document describes the schema
+		</documentation>
+	</annotation>
+	<element name="database">
+		<complexType>
+			<sequence>
+				<element ref="customer" minOccurs="1" maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<element name="customer">
+		<complexType>
+			<sequence>
+				<element ref="contactName" minOccurs="1" />
+				<element ref="contactInformation" minOccurs="1" />
+				<element ref="fullAddress" minOccurs="1" />
+				<element name="accountStatus" type="xsd:string" minOccurs="1" />
+			</sequence>
+		</complexType>
+	</element>
+	<element name="contactName">
+		<complexType>
+			<sequence>
+				<element name="firstName" type="xsd:string" />
+				<element name="lastName" type="xsd:string" />
+			</sequence>
+		</complexType>
+	</element>
+	<element name="contactInformation">
+		<complexType>
+			<sequence>
+				<element name="emailAddress" type="xsd:string" />
+				<element name="phoneNumber" type="xsd:string" />
+			</sequence>
+		</complexType>
+	</element>
+	<element name="fullAddress">
+		<complexType>
+			<sequence>
+				<element name="Address" type="xsd:string" />
+				<element name="city" type="xsd:string" />
+				<element name="postalCode" type="xsd:string" />
+				<element name="country" type="xsd:string" />
+			</sequence>
+		</complexType>
+	</element>
+</schema>
