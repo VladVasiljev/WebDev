@@ -23,7 +23,15 @@
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="css/style.css" rel="stylesheet">
     </head>
-
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
     <body background="images/background.jpg" >
         <div id="mainPage">
             <header>
@@ -59,32 +67,79 @@
             <section id="main-content">
                 <div id="guts">
 
-                    <h2>Contact</h2>
+                    <h2>Contact Customers</h2>
 
                     
 
                 </div>
             </section>
+          
+          <button type="button" onclick="loadXMLDoc()">Show Customers</button>
+<br><br>
+<table id="customersTable"></table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "customers.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>First Name</th><th>Last Name</th><th>Email Address</th><th>Phone Number</th><th>Full Address</th><th>City</th><th>PostalCode</th><th>Country</th><th>AccountStatus</th></tr>";
+  var x = xmlDoc.getElementsByTagName("customer");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("firstName")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("lastName")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("emailAddress")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+      x[i].getElementsByTagName("phoneNumber")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+      x[i].getElementsByTagName("Address")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+      x[i].getElementsByTagName("city")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+      x[i].getElementsByTagName("postalCode")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+       x[i].getElementsByTagName("country")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+      x[i].getElementsByTagName("accountStatus")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("customersTable").innerHTML = table;
+}
+</script>
+          
 
 
+<!--
+        <div class="mainImageControl">
 
-            <div class="mainImageControl">
-
-                <div>
-                    <img src="images/bike1.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
-                </div>
-                <div>
-                    <img src="images/bike2.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
-                </div>
-                <div>
-                    <img src="images/bike3.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
-                </div>
-                <div>
-                    <img src="images/bike4.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
-                </div>
-
+            <div>
+                <img src="images/bike1.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
+            </div>
+            <div>
+                <img src="images/bike2.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
+            </div>
+            <div>
+                <img src="images/bike3.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
+            </div>
+            <div>
+                <img src="images/bike4.png" class="hover_text" alt="Martello presents it’s 2016 range of Brooklyn fixies. Improving upon the previous years models, the low-maintenance flagship fixie now comes wit h2 brakes as standards">
             </div>
 
+        </div>
+
+-->
             <footer>
                 <h2>This is a Footer</h2>
             </footer>

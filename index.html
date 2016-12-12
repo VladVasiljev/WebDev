@@ -22,6 +22,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="css/style.css" rel="stylesheet">
 </head>
+	
 
 <body background="images/background.jpg" >
     <div id="mainPage">
@@ -50,7 +51,7 @@
 				<li><a href="bmx.html">BMX</a></li>
                 <li><a href="mountainBike.html">Mountain Bike</a></li>
                <li><a href="cityBike.html">City Bike</a></li>
-                <li><a href="contact.xml">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <!-- End of Nav  -->
@@ -70,15 +71,15 @@
 		</div>
 		</section>
 			
-			<div id='showCD'></div><br>
+			<div id='showBikes'></div><br>
 <input type="button" onclick="previous()" value="<<">
 <input type="button" onclick="next()" value=">>">
 
 <script>
 var i = 0;
-displayCD(i);
+displayBikes(i);
 
-function displayCD(i) {
+function displayBikes(i) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -92,7 +93,7 @@ function displayCD(i) {
 function myFunction(xml, i) {
     var xmlDoc = xml.responseXML; 
     x = xmlDoc.getElementsByTagName("bikes");
-    document.getElementById("showCD").innerHTML =
+    document.getElementById("showBikes").innerHTML =
     "Type of Bike: " +
     x[i].getElementsByTagName("Type")[0].childNodes[0].nodeValue +
     "<br>Colour: " +
@@ -108,20 +109,19 @@ function myFunction(xml, i) {
 function next() {
 if (i < x.length-1) {
   i++;
-  displayCD(i);
+  displayBikes(i);
   }
 }
 
 function previous() {
 if (i > 0) {
   i--;
-  displayCD(i);
+  displayBikes(i);
   }
 }
 </script>
-
-
-
+			
+			
         <div class="mainImageControl">
 
             <div>
@@ -138,6 +138,8 @@ if (i > 0) {
             </div>
 
         </div>
+
+
 
         <footer>
             <h2>This is a Footer</h2>
